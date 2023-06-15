@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <div className="logo"><img src="../../public/Logo.jpeg" alt="" /></div>
+                <div className="logo"><Link to={'/'}><img src="../../public/Logo.jpeg" alt="" /></Link></div>
                 <div className="iconPerfil"><img src="../../public/iconoPerfil.svg" /></div>
             </header>
             <nav className="navBar">
