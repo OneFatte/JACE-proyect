@@ -1,0 +1,10 @@
+.power {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.power iframe {
+    width: 100%;
+    height: 600px;
+}

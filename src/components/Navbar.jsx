@@ -1,35 +1,23 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import React from 'react';
 import "../css/Navbar.css"
-
 
 
 const Navbar = () => {
 
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-    const toggleDropdown = () => {
-        setIsDropdownOpen(!isDropdownOpen);
-    };
-
     return (
         <>
             <header>
-                <div className="logo"><Link to={'/'}><img src="../../public/Logo.jpeg" alt="" /></Link></div>
-                <div className="iconPerfil"><img src="../../public/iconoPerfil.svg" /></div>
+                <div className="logo">
+                    <img src="../../public/Logo.jpeg" alt="Logos" />
+                    <img src="../../public/logo2.png" alt="Logos" className='logo2' />
+                    <img src="../../public/logo3.jfif" alt="Logos" />
+                </div>
+                {/* <div className="iconPerfil"><img src="../../public/iconoPerfil.svg" /></div> */}
             </header>
             <nav className="navBar">
-                <Link className="enlace">Eventos</Link>
-                <Link className="enlace">Incidencias</Link>
-                <Link className="enlace" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>Ubicaciones
-                    {isDropdownOpen && (
-                        <ul className="dropdown">
-                            <li>Producto 1</li>
-                            <li>Producto 2</li>
-                            <li>Producto 3</li>
-                        </ul>
-                    )}
-                </Link>
+                <li className="enlace">Instrucciones</li>
+                <li className="enlace">Datos</li>
+
             </nav>
 
         </>
