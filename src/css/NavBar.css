@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.iconPerfil {
+    margin-right: 1rem;
+}
+
+.logo img {
+    width: 10rem;
+}
+
+nav {
+    background-color: #BE0C4D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.navBar .enlace {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+    padding: 0.6rem;
+}
+
+.navBar .enlace:hover {
+    background-color: #92093b;
+}

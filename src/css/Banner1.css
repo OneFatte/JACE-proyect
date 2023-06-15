@@ -1,0 +1,40 @@
+.banner1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.parteDerecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.parteDerecha h2 {
+    font-size: 2rem;
+}
+
+.parteDerecha button {
+    width: auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #BE0C4D;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.parteDerecha button:hover {
+    background-color: #92093b;
+}
+
+.parteIzquierda img {
+    width: 30vw;
+    border-radius: 15px;
+    opacity: 1;
+}
