@@ -2,7 +2,7 @@ import React from 'react';
 import "../css/Navbar.css"
 
 
-const Navbar = () => {
+const Navbar = ({ openModal, closeModal, open }) => {
 
     return (
         <>
@@ -15,8 +15,8 @@ const Navbar = () => {
                 {/* <div className="iconPerfil"><img src="../../public/iconoPerfil.svg" /></div> */}
             </header>
             <nav className="navBar">
-                <li className="enlace">Instrucciones</li>
-                <li className="enlace">Datos</li>
+                <li className="enlace" onClick={openModal}>Instrucciones</li>
+                <li className="enlace"><a href="#power">Datos</a></li>
 
             </nav>
 

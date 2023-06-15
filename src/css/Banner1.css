@@ -61,11 +61,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
 }
 
 .modal {
     background-color: #fff;
     padding: 20px;
+    top: 0;
+    position: absolute;
     color: black;
     display: flex;
     flex-direction: column;
@@ -86,4 +89,10 @@
 .modalContainer .modal .pasos {
     align-self: start;
     color: #92093b;
+    font-size: 1rem;
+}
+
+.modalContainer .modal img {
+    width: 80%;
+    height: 20rem;
 }
