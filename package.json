@@ -1,12 +1,11 @@
 {
   "name": "hackaton",
   "private": true,
-  "homepage": "https://github.com/OneFatte/JACE-proyect.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --base=/JACE-proyect/",
+    "build": "vite build --base=/JACE-proyect/",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
